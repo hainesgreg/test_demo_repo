@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My HTML Notes</title>
+  </head>
+  <body>
+    <h1>Welcome to My HTML Notes</h1>
+    <p>These are my notes about HTML!</p>
+  </body>
+</html>
+
+<p>Hello, this is my first stab at HTLM</p>
+<p>Hopefully this will help me understand programming (and coding in general) much much better<p>
+
+First paragraph.<br><br>
+Second paragraph.<br><br>
+Yay, we like space!<br><br>
+        
+<p>First paragraph.</p>
+<p>Second paragraph.</p>
+<p>Yay, we like space!</p>
+
+
+This is a <em>story</em> all about how <mark>my life</mark> got <sub>flipped</sub> turned <sup>upside down</sup>
+
+<!--
+em <em> = by default, displays text as italic
+strong <strong> = display text as bold
+p <p> = paragraph, tell browser to create a block around TEXT ONLY
+br <br> = line break/end of line        
+mark <mark> = highlighting
+sub/sup <sub> <sup> = move text vertically, subscript or superscript
+nesting = elements CANNOT overlap, see exmaple below:
+<p><em>Hello <mark>Kelly!</mark></em></p>
+h1 to h6 <h1><h6> = headlines or section headings
+style code = CSS
+inline elements = em, br, strong, sup, sub, img, a,  etc
+block elements = headings, sections, tables, etc
+div = divide up the page into sections (used to organise)
+FYI - some elements are ONLY used inside other elements, li for exmaple is ONLY used in side either ol(ordered list) or ul(unordered list)
+li <li> = list
+ul <ul> = default display uses bullet points
+ol <ol> = default display uses numbers
+href = hypertext reference - example = <a href="https://github.com/">GitHub</a> 
+--> 
+
+<h1>Nested Lists</h1>
+<ul>
+        <li>Mammals
+      <ol>    
+        <li>Reptiles
+        <li>Birds
+      </ol>    
+      </ul>
+      <ul>
+        <li>Reptiles
+      <ol>
+        <li>Iguanas
+        <li>Cobras
+      </ol>
+      </ul>
+      <ul>
+        <li>Birds
+      <ol>  
+        <li>Ostriches
+        <li>Ravens
+      </ol>
+      </ul>    
+
+<h1>Indentation</h1>      
+<p>Here is an example of a nested list:</p>
+<ul>
+  <li>Mammals
+    <ol>
+      <li>Raccoons
+      <li>Gorillas
+    </ol>
+  <li>Reptiles
+    <ol>
+      <li>Iguanas
+      <li>Cobras
+    </ol>
+  <li>Birds
+    <ol>
+      <li>Ostriches
+      <li>Ravens
+    </ol>
+</ul>
+<p>Indentation can help show the nested structure of the elements.</p>
+<p>It can also make the code <em>much</em> easier to read!</p>
+          
+<h1>href = hypertext reference - example = <a href="https://github.com/">GitHub</a> </h1>
+<a href="https://github.com/">GitHub</a> 
+
+<h1>img, src, alt</h1>>
+<p>this is an example of how to use the img (inline) element - <img src="https://fakeurl.example.net/fish.png" alt="Fish"> </p>>
+
+<!--
+    To create an image that is a link, put an img element between the open and close tags of an a element, for instance:
+    <a href="https://google.com"><img src="glogo.png" alt="Google!"></a>
+    relative URL = silly.gif
+    example = <img src="silly.gif" alt="Name of GIF">
+    absolute URL = https://www.google.com
+    example = <img src="https://www.google.com" alt="all the things">
+    <img src="https://placebear.com/200/200" alt="A picture of a bear.">
+    <img src="https://placekitten.com/200/200" alt="A picture of a kitten.">
+-->
+
+<h1>An example of using links and images</h1>>
+<p>
+        My favorite things:
+</p>
+      <ol>
+        <li><a href="https://en.wikipedia.org/wiki/Bear" target="_blank">Bears</a>
+        <li><a href="https://en.wikipedia.org/wiki/Kitten" target="_blank">Kittens</a>
+      </ol>
+      <img src="https://placebear.com/150/150" alt="A picture of a bear.">
+      <img src="https://placekitten.com/150/150" alt="A picture of a kitten.">
