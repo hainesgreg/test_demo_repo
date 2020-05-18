@@ -15,3 +15,7 @@ this is my suggestion, take it or leave it...
 
 guess i'll leave it there, thanks!!
 
+https://stackoverflow.com/questions/43318297/post-failure-block-in-jenkinsfile-is-not-working
+
+https://www.jenkins.io/doc/pipeline/tour/post/
+
