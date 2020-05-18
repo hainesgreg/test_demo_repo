@@ -3,11 +3,11 @@ node
     stage('stage one'){
         
         steps {
-            echo "hello there"
-            echo "run script"
-            echo "copy file to server"
-            echo "restart service"
-            echo "wait for input from human"
+            //echo "hello there"
+            //echo "run script"
+            //echo "copy file to server"
+            //echo "restart service"
+            //echo "wait for input from human"
            // sh './install'
         }
     }
